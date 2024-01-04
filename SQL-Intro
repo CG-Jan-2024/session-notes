@@ -1,0 +1,81 @@
+Database
+	- uses client / server architecture
+	- client here could be a CLI(Command Line Interface) or a GUI(Grphical User Interface) client
+	- can use pgAdmin as GUI client for postgres
+
+things a client needs to know to contact the server
+---------------------------------------------------
+1) network
+2) ipaddress of the server
+3) port number of the server program
+4) protocol
+5) credentials (username/password)
+
+
+server could be
+	- web server - http(hyper text transfer protocol)
+	- database server
+	- file server - ftp (file transfer protocol)
+
+port number
+	- generally a 4 digit number
+	- tomcat web server - 8080
+	- weblogic web server - 7001
+	- postgres DB server - 5432
+	- angular live development server - 4200
+	-
+
+data is stored in the database server - wrong
+
+data is stored by the database server - right
+
+
+data
+	- organized
+		- relational DB model
+			- tables, rows(records), columns(fields)
+			- eg. postgres, mysql, oracle
+		- no sql model
+			- eg. mongoDB
+	- manipulate
+		- adding, deleting, modifying
+
+SQL - Structured Querying Language
+
+ANSII SQL - this a standard/specification proposed for SQL
+
+most DB softwares follow this ANSII SQL
+
+Postgres
+
+Like all Languages , SQL is also compiled and executed
+
+steps in executing a query
+--------------------------
+1) we type the query in the client program
+2) once enter is pressed, the query is sent to the server
+3) the server takes the request(query), processes the query(compiles and executes) the query
+4) the server sends the reponse(output of the query) to the client
+5) we see the output of the query on the client
+
+SQL categories
+--------------
+1) DDL - Data Definition Language
+		- here queries are related to the structure of the table
+			- CREATE, ALTER, DROP
+2) DML - Data Manipulation Language
+		- here queries are related to the data in the table
+			- INSERT, UPDATE, DELETE
+3) DQL - Data Querying Language
+		- to fetch data
+			- SELECT
+				- where, joins, group by, having
+4) DCL - Data Control Language
+		- GRANT, REVOKE
+5) TCL - Transaction Control Language
+		- COMIT, ROLLBACK
+
+Normalization
+Transaction - ACID properties
+Constraints - Primary key, foreign key, unique, not null etc
+
