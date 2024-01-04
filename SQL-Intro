@@ -79,3 +79,22 @@ Normalization
 Transaction - ACID properties
 Constraints - Primary key, foreign key, unique, not null etc
 
+connecting to postgres server through cli client - psql
+------------------------------------------------------
+1) open cmd
+2) navigate to bin folder of postgres installation
+3) then type the command 
+	psql --host=localhost --port=5433 --username=postgres --password
+
+
+
+commands/queries used
+----------------------
+
+1) \l - to list all the databases
+2) CREATE DATABASE <databasename> - to create a new database
+3) \connect <database name> - to switch to another database
+4) \dt - to list all the tables
+5) CREATE TABLE user_details(user_id INT, user_name VARCHAR(20), user_password VARCHAR(20));
+6) INSERT INTO user_details(user_id, user_name, user_password) VALUES(1, 'abc', 'xyz');
+7) INSERT INTO user_details VALUES(2, 'lmn', 'asd');
