@@ -69,12 +69,14 @@ SQL categories
 3) DQL - Data Querying Language
 		- to fetch data
 			- SELECT
-				- where, joins, group by, having
+				- where, group by, having
 4) DCL - Data Control Language
+		- CREATE users
 		- GRANT, REVOKE
 5) TCL - Transaction Control Language
 		- COMIT, ROLLBACK
 
+joins
 Normalization
 Transaction - ACID properties
 Constraints - Primary key, foreign key, unique, not null etc
@@ -98,3 +100,123 @@ commands/queries used
 5) CREATE TABLE user_details(user_id INT, user_name VARCHAR(20), user_password VARCHAR(20));
 6) INSERT INTO user_details(user_id, user_name, user_password) VALUES(1, 'abc', 'xyz');
 7) INSERT INTO user_details VALUES(2, 'lmn', 'asd');
+
+
+constraints
+-----------
+	- a condition put up on the column
+	- whenever we insert/update data, the data will be checked against the condition
+
+primary key
+-------------
+	- according boyce codd, every table should have a primary key column
+	- a column marked as primary key does not allow null values and duplicate values
+	- a primary key column will always help us to fetch a unique record
+	- primary key can be specified at column level or table level
+	- a primary key column is automatically indexed
+
+unique
+not null
+
+foreign key
+-----------
+	- enforces referential intergrity
+	- can one table have more than one foreign key ? - yes
+	- can i have a foreign key referencing a column in the same table? -yes
+
+department_details
+dept_id(PK)
+dept_name
+
+employee_details
+emp_id(PK)
+emp_name
+dept_id(FK)	------> refernces dept_id of department_details
+manager_id(FK) ----> refernces emp_id of employee_details
+
+501 HR
+502 IT
+503 Admin
+
+101 John 501
+102 Smith 503
+103 Priya 501
+104 Preethi 515 ----> incorrect data
+
+functions
+---------
+	- we have in-built function
+	- these functions are of 2 types
+		- scalar functions
+			- a scalar function works on each data in the column and produces corresponding output
+			- eg, UPPER(), DATE_PART()
+		- aggregate functions
+			- an aggregate function works on all the data of the column and produces one output
+			- AVG(), COUNT(), SUM()
+
+clauses of select query 
+-----------------------
+SELECT <projecttion columns>
+	FROM <table(s) name>
+	WHERE <condition>
+	GROUP BY <column list>
+	HAVING <condition>
+	ORDER BY <column list>
+	
+count of the total employees workin
+   	select count(*) from employee_details;
+count of total employess in each department
+	select count(emp_id) from employee_details group by emp_dept_id;
+	select emp_dept_id, count(emp_id) from employee_details group by emp_dept_id;
+average salary of all the employees
+	select avg(emp_salary) from employee_details;
+average salary of all the employees in each department
+	select avg(emp_salary) from employee_details group by emp_dept_id;
+average salary of all the employees in each department whose average salary is greater than 32500
+	select avg(emp_salary) from employee_details group by emp_dept_id having avg(emp_salary)>32500;
+
+where clause applies the condition before the groupimg
+having clause applies the condition after grouping
+
+
+joins
+------
+
+query to display employee information
+	select ^ from employee_details;
+query to display employee information and the department name which the employee belongs to
+
+
+tableA join tableB
+
+Set1 = (A, B, C)  
+Set2 = (X,Y)
+Set1 X Set2 = (A,X) (A, Y) (B,X) (B, Y) (C,X) (C,Y)
+
+
+theta style of joins (old style)
+SELECT emp_id, emp_name, emp_dept_id, dept_name FROM employee_details, department_details where emp_dept_id=dept_id;
+
+join keyword (new style)
+SELECT emp_id, emp_name, emp_dept_id, dept_name FROM employee_details INNER JOIN department_details ON emp_dept_id=dept_id;
+
+
+types of joins
+---------------
+INNER JOIN
+LEFT OUTTER JOIN
+RIGHT OUTTER JOIN
+FULL OUTTER JOIN
+CROSS JOIN
+SELF JOIN
+NATURAL JOIN 
+
+Subquery
+--------
+write a query to display employee info of employees whose salary is lesser than the average salary of all the employees 
+
+
+
+
+
+
