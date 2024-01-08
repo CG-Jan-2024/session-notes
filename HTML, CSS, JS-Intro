@@ -1,0 +1,57 @@
+Web Designing
+-------------
+web server - 
+	- a program
+	- should be up and running
+	- can take in a request, process it and send a response
+	- can host a web application (copying the web application files into the server )
+
+web application - 
+	- collection of web pages
+
+web pages - 
+	- user interface/ displays information/ get input from the user
+	- 2 types of web pages
+		- static web pages 
+			- contents will never change on the server side
+			- the page is sent as it is
+
+		- dynamic web pages
+			- has some program in it, which executes at the server side and changes the content of the page
+
+
+HTML - Hyper Text Markup Language
+----------------------------------
+	- used to create web pages
+	- it is a markup language - a language which is full of tags - start tag, end tag, text, attribute name and attribute value
+	- we will use html 5 version - the start the file should have doctype
+	- many new things were introduced in html5 (know this)
+		- semantic tags - header, footer, section, nav, main 
+		- more input types were added - <input type="eemail"> - email, date, number etc
+		- audio and video tags were introduced
+
+	- sample html
+
+	<html>
+		<head>
+			<title>My First Page <html>
+
+		</head>
+		<body>
+			<h2> My First web page using HTML</h2>
+		</body>
+	</html>
+
+	- use VSCode, notepad for html and save the file with .html extension. open the file in a browser. here we are not using a server.
+
+
+
+CSS - Cascading Stylesheet
+---------------------------
+
+
+
+
+
+Javascript
+----------
