@@ -38,7 +38,7 @@ HTML - Hyper Text Markup Language
 
 		</head>
 		<body>
-			<h2> My First web page using HTML</h2>
+			<h2 font="red"> My First web page using HTML</h2>
 		</body>
 	</html>
 
@@ -48,9 +48,10 @@ HTML - Hyper Text Markup Language
 
 CSS - Cascading Stylesheet
 ---------------------------
-
-
-
+	- used to style your web pages
+	- the css styles reside in your html page
+	- how to include css in html, the css selectors, the css properties, box model, short hand notation
+	- background, margin, border, text, padding, colors, etc
 
 
 Javascript
