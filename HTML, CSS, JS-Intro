@@ -56,3 +56,33 @@ CSS - Cascading Stylesheet
 
 Javascript
 ----------
+	- is a scripting language
+	- a scripting language is a light weight programming language
+	- javascript and java are not the same
+	- javascript code resides on the webpage and when the client asks for the page the JS code is sent along with the webpage
+	- the JS code reaches the browser(client) and it is executed on the client side
+	- so JS is called a client side scripting language
+	- who executes your JS code? - browser (the browser provides the runtime environment for JS)
+	- can the browser alone provide the runtime environment for JS? not necessary. NodeJs can also provide the environment to run JS.
+	- server side programs - servlets & JSP(Java Server Pages)	
+
+	- things to learn in JS
+		- variables, operators, functions, control statememnt, looping statements, input, output
+		- know the ES6 features added to JS
+
+	- in JS we dont declare variables using datatypes. we use var, let, const to declare variables in JS.
+		var mark1 = 50;
+		var isCorrect = true;
+		var subjectName = "English";
+
+		var isCorrect = false; // no error - in JS we can redeclare a variable 
+
+		var mark1 = "Math"; // no error - in JS you can change the type of data stored in a variable
+		for this reason we say JS is not strongly typed
+
+		let and const was introduced in ES6 - definetly learn it
+	
+		
+
+
+
