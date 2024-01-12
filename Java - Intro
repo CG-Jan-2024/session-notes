@@ -1,0 +1,62 @@
+C - structured programming language
+  - has concept of pointers
+  - used to create system programs
+
+C++ - object oriented programing language
+     - is it pure object oriented? - no
+
+Java 
+	- programming language
+	- object oriented programming language
+	- syntax from c + oops concept for c++(modified)
+	- is java pure object oriented programing language - no
+	- james gosling is the founder of java
+	- complete reference book
+
+IDEs (Integrated Development Environment)
+	- Eclipse, Netbeans, intellij, vscode
+
+JRE - Java Runtime Environment
+JDK - Java  Devleopment Kit
+    - JRE + Java compiler
+JVM - Java Virtual Machine
+    - converts byte code to machine code
+    - a part of the JRE
+
+First.java ---compile----> First.class ----run--->machine code & output
+(source)                   (byte code)           (java does not retain the machine code)
+
+always keep the code neat and aligned
+
+Naming conventions to be strictly followed
+class name - title casing
+		- eg: HelloWorld, BankAccount
+variables - camel cased
+		- eg: englishMark, total, isCompleted
+methods - camel casing
+		- eg: computeTotal(), findLowestMark()
+
+Data types
+	- primitive data types
+	- non-primitive/ derived data types
+		- classes, Interfaces, arrays
+
+8 primitive data types
+-----------------------
+	- byte
+	- short
+	- int
+	- long
+	- float
+	- double
+	- boolean
+	- char
+
+int mark = 50;
+we are storing a int literal in a int variable
+char ch = 'd';
+boolean flag = true; // in java boolean variables hold only true or false
+
+in c
+----
+	boolean fl = 0; // not possible in java
