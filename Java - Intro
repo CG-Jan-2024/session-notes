@@ -1,62 +1,111 @@
-C - structured programming language
-  - has concept of pointers
-  - used to create system programs
+- java is an object oriented programming language
+- in an OOP language we classes and objects
+- what is a class?
+	- a blue print
+	- a template
+	- a sketch
+	- a structure
+- have to create a class and then we can create objects using the class
+- what does a class contain?
+	- variables/instance variables/properties/attributes/data members/state
+	- methods/functions/member functions
+	- inner classes( we will not talk about this)
+- few in built classes in java
+	Scanner, System, String, Math
+	classes are title cased
+- sample class design
 
-C++ - object oriented programing language
-     - is it pure object oriented? - no
+public class Person{
+	String name;
+	int age;
+	int height;
+	String gender;
+	
+	//System.out.println("hello"); ----> totally wrong
+	public boolean eat(){
+	.....
+	}	
+	public boolean sleep(){
+	
+	.....
+	}
+}
 
-Java 
-	- programming language
-	- object oriented programming language
-	- syntax from c + oops concept for c++(modified)
-	- is java pure object oriented programing language - no
-	- james gosling is the founder of java
-	- complete reference book
+public class Room{
+	double length;
+	double height;
+	double width;
 
-IDEs (Integrated Development Environment)
-	- Eclipse, Netbeans, intellij, vscode
+	public double floorArea(){
+		double fArea = length * width;
+		return fArea;
+	}
+	public double costOfPaintingWalls(){
+		double wallArea = (2 * length * height) + (2 * width * height);
+		double costOfPainting = wallArea * 2;
+		return costOfPaining;
+	}
+}
 
-JRE - Java Runtime Environment
-JDK - Java  Devleopment Kit
-    - JRE + Java compiler
-JVM - Java Virtual Machine
-    - converts byte code to machine code
-    - a part of the JRE
+static
+------
+static can be used in front of
 
-First.java ---compile----> First.class ----run--->machine code & output
-(source)                   (byte code)           (java does not retain the machine code)
+1) variable
+	- we call the variable as static variable
+	- static variables do not take seperate memory for each object
+	- they share the same memory accross any number of obejcts created
+	- if we put static in front it becomes static varibble, then the instance variable can called non static variables
+	- in Room example, length, width, height, roomNo, roomColor are instance/non-static variables
+	- wallThickness is a static variable
+	- static variables do not belong to a particular object, rather they belong to the class
+	- how do we intialize a static variable? - using static blocks
 
-always keep the code neat and aligned
 
-Naming conventions to be strictly followed
-class name - title casing
-		- eg: HelloWorld, BankAccount
-variables - camel cased
-		- eg: englishMark, total, isCompleted
-methods - camel casing
-		- eg: computeTotal(), findLowestMark()
+2) method
+	- a method can have static in front of it
+	- a static method performs a common operation/logic and not seprate logics for each object 
 
-Data types
-	- primitive data types
-	- non-primitive/ derived data types
-		- classes, Interfaces, arrays
+3) class
+	- we can use static in front of only inner classes
+	- this is out of the scope
 
-8 primitive data types
------------------------
-	- byte
-	- short
-	- int
-	- long
-	- float
-	- double
-	- boolean
-	- char
+4) block
+	- a class can contain any number of static blocks
+	- static{
 
-int mark = 50;
-we are storing a int literal in a int variable
-char ch = 'd';
-boolean flag = true; // in java boolean variables hold only true or false
 
-in c
-----
-	boolean fl = 0; // not possible in java
+	}
+
+	- static blocks are also automatically called when the class is first loaded into the memory
+	- if multiple static blocks are present, they are called in the order in which are writtern
+	- static blocks are meant for intializing static variables
+	- we can access static members using class name
+		Room.computeThickness();
+		System.out.println(Room.wallThickness);
+
+	Room studyRoom;
+		- is object created in this line? no
+	1. the Room class is loaded to the primary(JRE) memory.
+	2. create/allocate memory for static variables
+	3. automatically call the static blocks
+
+	studyRoom = new Room(500, 300, 150);
+		- is object created created in this line? yes
+	4. create/allocate memory for non-static/instance variables
+	5. automatically call the constructor	
+
+	Room diningRoom; here step 1,2,3 will not work
+	diningRoom = new Room(800, 400, 150); here step 4 , 5 will work
+
+
+2 points about static
+	- can a static-method access a static member? yes
+	- can a static-method access a non-static member? no
+	- can a non-static-method access a static member? yes
+	- can a non-static-method access a non-static member? yes
+
+Wrapper classes
+Date - LocalDate, LocalDateTime
+Arrays
+String
