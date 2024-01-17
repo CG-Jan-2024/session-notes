@@ -6,8 +6,6 @@ Array = {23, 5, 67, 20, 3, 30, 79, 3, 70, 2}
 
 Ascending Order = {2, 3, 3, 5, 20, 23, 30, 67, 70, 79}
 
-View Solution
-
 2. Write a program to Sort Numeric Array In Descending Order
 
 Sample Output
@@ -16,8 +14,6 @@ Array = {23, 5, 67, 20, 3, 30, 79, 3, 70, 2}
 
 Descending Order = {79, 70, 67, 30, 23, 20, 5, 3, 3, 2}
 
-View Solution
-
 3. Write a program to print sum values of an array
 
 Sample Output
@@ -25,8 +21,6 @@ Sample Output
 Array = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
 
 Sum Values of Array = 55
-
-View Solution
 
 4. Write a program to calculate the average value of array elements
 
@@ -37,8 +31,6 @@ Array = {1, 2, 3, 4, 5}
 Sum of Array Value : 15
 
 Average of Array Value : 3.0
-
-View Solution
 
 5. Write a program to store elements in an array and print it
 
@@ -58,8 +50,6 @@ Display Array Elements
 33
 44
 
-View Solution
-
 6. Write a program in to array size to be user input print it
 
 Sample Output
@@ -75,8 +65,6 @@ Display Array Elements
 30
 40
 
-View Solution
-
 7. Write a program in to find the sum of all elements of the array
 
 Sample Output
@@ -84,8 +72,6 @@ Sample Output
 Array = {10, 20, 30, 40, 50, 60}
 
 Sum of Array Elements = 210
-
-View Solution
 
 8. Write a program in to read n number of values in an array and display it in reverse order
 
@@ -105,8 +91,6 @@ Display Reverse Order
 2
 1
 
-View Solution
-
 9. Write a program to array elements to print cubic values
 
 Sample Output
@@ -114,8 +98,6 @@ Sample Output
 Array = {1, 2, 3, 4, 5}
 
 Cubic Array Elements =1 8 27 64 125
-
-View Solution
 
 10. Write a program to find the maximum and minimum element in an array
 
@@ -127,8 +109,6 @@ Maximum Element of Array = 75
 
 Minimum Element of Array = 4
 
-View Solution
-
 11. Write a program to array elements print all Odd number
 
 Sample Output
@@ -136,8 +116,6 @@ Sample Output
 Array = {23, 45, 67, 34, 78}
 
 Odd Array Elements = 23 45 67
-
-View Solution
 
 12. Write a program to array elements print all Even number
 
@@ -147,8 +125,6 @@ Array = {23, 45, 89, 34, 12}
 
 Even Array Elements = 34 12
 
-View Solution
-
 13. Write a program to array elements to print sum of Odd Numbers
 
 Sample Output
@@ -156,8 +132,6 @@ Sample Output
 Array = {12, 34, 59, 45, 22}
 
 Sum of Odd Array Elements = 104
-
-View Solution
 
 14. Write a program to array elements to print sum of Even Numbers
 
@@ -167,8 +141,6 @@ Array = {56, 78, 45, 79, 34}
 
 Sum of Even Array Elements = 168
 
-View Solution
-
 15. Write a program to array elements to print sum of Cubic Values
 
 Sample Output
@@ -177,8 +149,6 @@ Array = {1, 2, 3, 4, 5}
 
 Sum of Cubic Array Elements = 225
 
-View Solution
-
 16. Write a program in to copy the elements of one array into another array
 
 Sample Output
@@ -186,8 +156,6 @@ Sample Output
 Array = {1, 2, 3, 4, 5}
 
 Copy Array Elements one to Another Array = {1, 2, 3, 4, 5}
-
-View Solution
 
 17. Write a program to merge two arrays elements to store third array
 
@@ -199,8 +167,6 @@ First Array = {6, 7, 8, 9, 10}
 
 Merge two Array Elements = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
 
-View Solution
-
 18. Write a program to array elements print all Positive number
 
 Sample Output
@@ -208,8 +174,6 @@ Sample Output
 Array = {67, -4, 3, -5, 44}
 
 Positive Array Elements = {67, 3, 44}
-
-View Solution
 
 19. Write a program to array elements print all Negative number
 
@@ -219,8 +183,6 @@ Array = {-45, 32, -7, 3, -6}
 
 Negative Array Elements = {-45, -7, -6}
 
-View Solution
-
 20. Write a program to array elements to print sum of Positive Numbers
 
 Sample Output
@@ -229,8 +191,6 @@ Array = {1, -2, 3, 3, 4}
 
 Sum of Positive Array Elements = 7
 
-View Solution
-
 21. Write a program to array elements to print sum of Negative Numbers
 
 Sample Output
@@ -238,8 +198,6 @@ Sample Output
 Array = {10, -23, 45, -10, 30}
 
 Sum of Negative Array Elements = -33
-
-View Solution
 
 22. Write a program to search an element in an array
 
@@ -253,8 +211,6 @@ Element is Found in the Position = 3
 
 Element is Found in the Index = 2
 
-View Solution
-
 23. Write a program to Delete Duplicate Elements from an Array
 
 Sample Output
@@ -262,8 +218,6 @@ Sample Output
 Array = {10, 10, 20, 20, 30}
 
 After Remove Duplicate Array Elements = {10, 20, 30 }
-
-View Solution
 
 24. Write a program to Print Unique Elements in Array
 
@@ -273,8 +227,6 @@ Array = {10, 20, 40, 20, 10}
 
 Display Array Unique Elements = {10, 20, 40 }
 
-View Solution
-
 25. Write a program to find the second smallest element in an array
 
 Sample Output
@@ -282,8 +234,6 @@ Sample Output
 Array = {10, 20, 5, 2, 30}
 
 Second Smallest Element = 5
-
-View Solution
 
 26. Write a program that identifies the Even elements in two arrays and creates a third array with those elements
 
@@ -295,8 +245,6 @@ Second Array = {6, 7, 8, 9, 10}
 
 Even Element Store in Third Array = {2, 4, 6, 8, 10}
 
-View Solution
-
 27. Write a program that identifies the Odd elements in two arrays and creates a third array with those elements
 
 Sample Output
@@ -306,8 +254,6 @@ First Array = {1, 2, 3, 4, 5}
 Second Array = {6, 7, 8, 9, 10}
 
 Odd Element Store in Third Array = {1, 3, 5, 7, 9}
-
-View Solution
 
 28. Write a program to find the common elements between two arrays of integers
 
@@ -319,8 +265,6 @@ Second Array = {10, 30, 60, 50, 70}
 
 Common Array Elements = {10, 30, 50}
 
-View Solution
-
 29. Write a program to find the second Largest element in an array
 
 Sample Output
@@ -328,8 +272,6 @@ Sample Output
 Array = {10, 20, 30, 40, 50}
 
 Second Largest Element = 40
-
-View Solution
 
 30. Write a program to find a missing number in an array
 
@@ -339,8 +281,6 @@ Array = {1, 2, 4, 5, 6, 7}
 
 Missing Array Number = 3
 
-View Solution
-
 31. Write a program to Sort an array in ascending order using quicksort
 
 Sample Output
@@ -348,8 +288,6 @@ Sample Output
 Array = {2, 65, 23, 13, 18, 30, 46, 17, 52, 78}
 
 Sorted Array in Ascending Order = 2 13 17 18 23 30 46 52 65 78
-
-View Solution
 
 32. Write a program to Sort an array in descending order using bubble sort
 
@@ -359,8 +297,6 @@ Array = {2, 65, 23, 13, 18, 30, 46, 17, 52, 78}
 
 Sorted Array in Descending Order = 78 65 52 46 30 23 18 17 13 2
 
-View Solution
-
 33. Write a program to Sort an array in ascending order using bubble sort
 
 Sample Output
@@ -368,8 +304,6 @@ Sample Output
 Array = {2, 65, 23, 13, 18, 30, 46, 17, 52, 78}
 
 Sorted Array in Ascending Order = 2 13 17 18 23 30 46 52 65 78
-
-View Solution
 
 34. Write a program to Sort an array in descending order using selection sort
 
@@ -379,8 +313,6 @@ Array = {2, 65, 23, 13, 18, 30, 46, 17, 52, 78}
 
 Sorted Array in Descending Order = 78 65 52 46 30 23 18 17 13 2
 
-View Solution
-
 35. Write a program to Sort an array in ascending order using selection sort
 
 Sample Output
@@ -388,8 +320,6 @@ Sample Output
 Array = {2, 65, 23, 13, 18, 30, 46, 17, 52, 78}
 
 Sorted Array in Ascending Order = 2 13 17 18 23 30 46 52 65 78
-
-View Solution
 
 36. Write a program to Search an item in an array using binary search
 
@@ -401,8 +331,6 @@ Enter Item to Search = 60
 
 Item Found at 5 Position
 
-View Solution
-
 37. Write a program to Search an item into the array using linear search
 
 Sample Output
@@ -412,8 +340,6 @@ Array = {10, 20, 30, 56, 84}
 Item to Search = 30
 
 Item Found at Index = 2
-
-View Solution
 
 38. Write a program to Find prime and non-prime numbers in the array
 
@@ -426,8 +352,6 @@ Array = {3, 12, 21, 11}
 21 - Not Prime
 11 - Prime
 
-View Solution
-
 39. Write a program to Move all zero at the end of the array
 
 Sample Output
@@ -435,8 +359,6 @@ Sample Output
 Array = {1,0,45,34,0,67,2,0,6,67,45,2,0,10}
 
 Array after Moving Zeros to End = 1 45 34 67 2 6 67 45 2 10 0 0 0 0
-
-View Solution
 
 40. Write a program to Read and print a Two Dimensional array
 
@@ -455,5 +377,3 @@ Enter Array Elements a[1][2] = 6
 Display 2D Array Element
 1 2 3
 4 5 6
-
-View Solution
