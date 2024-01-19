@@ -1,0 +1,51 @@
+PooOOPS Concept (Object Oriented Programing)
+
+A - Abstractiom
+P - Polymorphism
+I - Inheritence
+E - Encapsulation
+
+Inheritence
+  - one class can extend another class
+  - the extending class is called child class/sub class/derived class
+  - the extended class is called parent class/super class/base class
+  - the child class inherits all the members of the parent class 
+  - the child class can access all the members of the parent class as if it were its own member without creating an object
+  - we use extends keyword
+  - inheritence gives is-a relation between the 2 classes
+  - do not extend a class if the is-a relation is not satisfied
+  - purpose - inheritence gives us code reusability
+  - types of inheritence
+      - Single inheritence
+      - Multiple inheritence ( not supported in java. this looks like class A extends B,C . We cannot do this in java)
+      - Multi level inheritence
+      - Hirarchical inheritence
+      - Hybrid inheritence
+  - we can also have a has-a relation between 2 classes but it is not achieved through inheritence
+  - so how do we get has-a relation between 2 classes? - find out( see composition and aggregation)
+
+Polymorphism
+------------
+  - more than one form, many forms
+  - 2 types
+      - method overloading(static polymorphism/ compile time polymorphism)
+      - method overriding (dynamic polymorphism/ runtime polymorphism)
+- method overloading
+    - same method name with different arguments
+    - different arguments means either the type or order or number of arguments must be different
+    - we do not consider the return type in method overloading
+    - is inheritence a pre-requisite for method overloading? no, because method overloading can be acheived within a class
+    - can i overload methods across super class and sub class? yes
+    - purpose ? convinience
+          int num = 45;
+          System.out.println(num);
+          String msg = "hello";
+          System.out.println(msg);
+
+          here println method is overloaded
+- method overriding
+  - is inheritence a pre-requisite for method overriding? Yes
+  - if super class and sub class has same method name with same arguments and return type, we say the method in the sub class is overiding the method in the super class
+  - purpose ? is to redefine the functionality of the super class in the sub class
+  - can I call the overridden method of the super class from the overiding method of the sub class? yes, using super.method()
+  - do we have variable overiding ? no, however you can still declare variable with same name in super and sub class, but there is no need of it
